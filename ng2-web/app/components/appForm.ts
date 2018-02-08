@@ -12,6 +12,7 @@ import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 		</form>
 		<input type="text" [(ngModel)]="sessionBind">
 		<input type="text" [(ngModel)]="localBind">
+		<input type="text>
 	`,
 })
 export class AppForm implements OnInit {
